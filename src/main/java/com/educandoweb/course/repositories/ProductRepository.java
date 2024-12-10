@@ -1,6 +1,6 @@
 package com.educandoweb.course.repositories;
 
-import com.educandoweb.course.entities.User;
+import com.educandoweb.course.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User, Long> {}
+public interface ProductRepository extends JpaRepository<Product, Long> {}
